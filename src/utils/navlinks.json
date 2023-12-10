@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "linkName": "Home",
+        "route": "/"
+    },
+    {
+        "id": 2,
+        "linkName": "Shop",
+        "route": "/shop"
+    },
+    {
+        "id": 3,
+        "linkName": "About",
+        "route": "/about"
+    }
+]

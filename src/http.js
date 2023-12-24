@@ -1,7 +1,7 @@
 import axios from "axios";
-const API_URL = "https://fakestoreapi.com/"
+import { BASE_URL } from "../constant";
 const http = axios.create({
-    baseURL:API_URL,
+    baseURL:BASE_URL,
     headers:{
         'Content-Type':'application/json',
       }

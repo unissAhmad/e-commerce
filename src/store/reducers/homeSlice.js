@@ -3,9 +3,10 @@ import { homeProductsThunk } from "../actions/homeThunk";
 import { HOME_REDUCER } from "../reducerNames";
 const initialState = {
   products: [],
+  limit: 24,
 };
 const homeSlice = createSlice({
-  name: HOME_REDUCER,
+  name: "home",
   initialState,
   reducers: {},
   extraReducers: (builder) => {

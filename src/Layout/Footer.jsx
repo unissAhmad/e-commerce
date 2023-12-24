@@ -35,7 +35,7 @@ const Footer = () => {
               Email: info@example.com
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Phone: +91 1234 567 890 
+              Phone: +91 1234 567 890
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -66,5 +66,5 @@ const Footer = () => {
       </Container>
     </Box>
   );
-}
+};
 export default Footer;
